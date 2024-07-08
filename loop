@@ -1,0 +1,9 @@
+void main() {
+  List<int> evenNumber = [];
+  for (int i = 20; i <= 200; i++) {
+    if (i % 2 == 0) {
+      evenNumber.add(i);
+    }
+  }
+  print(evenNumber);
+}
