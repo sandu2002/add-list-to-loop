@@ -1,0 +1,7 @@
+void main() {
+  String title = "Flutter in dart";
+
+  for (int i = 0; i < title.length; i++) {
+    print(title[i]);
+  }
+}
